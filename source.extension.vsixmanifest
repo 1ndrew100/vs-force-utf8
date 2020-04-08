@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="9c0cad96-afa3-47a4-9090-12bb64f4d8b3" Version="0.0.3" Language="en-US" Publisher="1ndrew100" />
+        <Identity Id="9c0cad96-afa3-47a4-9090-12bb64f4d8b3" Version="0.0.4" Language="en-US" Publisher="1ndrew100" />
         <DisplayName>Force UTF-8 (No BOM)</DisplayName>
         <Description xml:space="preserve">Forcibly saves all files in UTF-8 (No BOM) encoding.</Description>
         <MoreInfo>https://github.com/1ndrew100/vs-force-utf8</MoreInfo>
+        <Icon>Package.png</Icon>
+        <PreviewImage>Package.png</PreviewImage>
     </Metadata>
     <Installation >
         <InstallationTarget Version="[15.0, 17.0)" Id="Microsoft.VisualStudio.Community" />
